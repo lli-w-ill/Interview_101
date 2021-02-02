@@ -8,9 +8,9 @@
 
 For example, *Ex_1_Two_Sum*
 
-**Solution file:** _{status}_ + {Solution No.} + {solving method/data structure}
+**Solution file:** _{status}_ + {Trial No.} + {using method/data structure}
 
-status = Soln (Solved) / Tle (Time limit exceed)
+status = Soln (Solved) / Tle (Time limit exceed) / Err (Error)
 
 For example, Soln_1_Greedy, Soln_2_Dp, Tle_3_Bf (Bf = brute force)
 
