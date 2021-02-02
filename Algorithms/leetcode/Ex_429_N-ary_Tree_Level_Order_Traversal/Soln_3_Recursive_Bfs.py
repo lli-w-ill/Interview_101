@@ -24,3 +24,6 @@ class Solution:
         currLevel = list(itertools.chain.from_iterable(
             parent.children for parent in currLevel))
         return self.bfs(currLevel, levels)
+
+
+# 参考：https://stackoverflow.com/questions/716477/join-list-of-lists-in-python
