@@ -1,5 +1,8 @@
 package Algorithms.leetcode.Ex_1_Two_Sum;
 
+import java.util.Map;
+import java.util.HashMap;
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
