@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 class Solution {
+    @SuppressWarnings("unchecked") // 忽略类型检查导致的warnings
     public int[] topKFrequent(int[] nums, int k) {
         // 计算每个数字出现的频率
         HashMap<Integer, Integer> freq = new HashMap<Integer, Integer>();
