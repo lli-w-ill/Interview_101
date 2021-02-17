@@ -3,7 +3,7 @@
 using std::string;
 using std::max;
 
-class Solution {
+class Solution_4 {
 public:
     int longestValidParentheses(string s) {
         int len = s.size();
