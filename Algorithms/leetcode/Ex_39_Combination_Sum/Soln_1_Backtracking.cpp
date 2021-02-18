@@ -24,7 +24,6 @@ private:
             return;
         }
         if (curSum > target) {
-            // 剪枝 pruning
             return;
         }
         for (int i = startIdx; i < endIdx; i++) {
