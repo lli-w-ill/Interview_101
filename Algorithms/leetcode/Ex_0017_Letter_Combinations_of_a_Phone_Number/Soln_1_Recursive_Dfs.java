@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_17_Letter_Combinations_of_a_Phone_Number;
+package Algorithms.leetcode.Ex_0017_Letter_Combinations_of_a_Phone_Number;
 
 import java.util.Map;
 import java.util.HashMap;

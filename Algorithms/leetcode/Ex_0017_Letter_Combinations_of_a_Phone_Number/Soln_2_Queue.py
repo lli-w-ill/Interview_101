@@ -1,4 +1,4 @@
-class Solution:
+class Solution_2:
     def letterCombinations(self, digits: str) -> List[str]:
         if not digits:
             return []
@@ -13,4 +13,4 @@ class Solution:
         return queue
 
 
-# 参考：https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/hui-su-dui-lie-tu-jie-by-ml-zimingmeng/
+# 参考题解：https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/hui-su-dui-lie-tu-jie-by-ml-zimingmeng/
