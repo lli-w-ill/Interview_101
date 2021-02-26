@@ -1,10 +1,10 @@
-package Algorithms.leetcode.Ex_15_3Sum;
+package Algorithms.leetcode.Ex_0015_3Sum;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class Solution {
+class Solution_2 {
     public List<List<Integer>> threeSum(int[] nums) {
         int len = nums.length;
         List<List<Integer>> res = new ArrayList<List<Integer>>();

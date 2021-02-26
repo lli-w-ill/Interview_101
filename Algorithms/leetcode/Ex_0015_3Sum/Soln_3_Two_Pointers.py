@@ -1,4 +1,4 @@
-class Solution:
+class Solution_3:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         length = len(nums)
         if not length or length < 3:
