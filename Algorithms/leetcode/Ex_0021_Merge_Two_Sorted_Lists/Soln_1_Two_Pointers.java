@@ -1,11 +1,11 @@
-package Algorithms.leetcode.Ex_21_Merge_Two_Sorted_Lists;
+package Algorithms.leetcode.Ex_0021_Merge_Two_Sorted_Lists;
 
 /**
  * Definition for singly-linked list. public class ListNode { int val; ListNode
  * next; ListNode() {} ListNode(int val) { this.val = val; } ListNode(int val,
  * ListNode next) { this.val = val; this.next = next; } }
  */
-class Solution {
+class Solution_1 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;

@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_21_Merge_Two_Sorted_Lists;
+package Algorithms.leetcode.Ex_0021_Merge_Two_Sorted_Lists;
 
 public class ListNode {
     int val;
