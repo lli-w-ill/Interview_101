@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_30_Substring_with_Concatenation_of_All_Words;
+package Algorithms.leetcode.Ex_0030_Substring_with_Concatenation_of_All_Words;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -48,5 +48,5 @@ class Solution_1 {
     }
 }
 
-// 参考：https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-6/
-// 参考：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-dong-chuang-kou-by-powcai/
+// 参考题解：https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-6/
+// 参考题解：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-dong-chuang-kou-by-powcai/
