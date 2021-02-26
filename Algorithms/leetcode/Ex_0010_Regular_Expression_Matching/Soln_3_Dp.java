@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_10_Regular_Expression_Matching;
+package Algorithms.leetcode.Ex_0010_Regular_Expression_Matching;
 
 class Solution_3 {
     public boolean isMatch(String s, String p) {

@@ -1,4 +1,4 @@
-class Solution:
+class Solution_1:
     def isMatch(self, s: str, p: str) -> bool:
         if not p:
             return not s
