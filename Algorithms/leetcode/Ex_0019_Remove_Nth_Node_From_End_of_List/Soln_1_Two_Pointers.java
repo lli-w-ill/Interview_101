@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_19_Remove_Nth_Node_From_End_of_List;
+package Algorithms.leetcode.Ex_0019_Remove_Nth_Node_From_End_of_List;
 
 /**
  * Definition for singly-linked list. public class ListNode { int val; ListNode

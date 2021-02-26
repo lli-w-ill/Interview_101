@@ -11,7 +11,7 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-class Solution {
+class Solution_2 {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         ListNode *p = head;
@@ -56,4 +56,4 @@ public:
     }
 };
 
-// 题解参考（强烈推荐）：https://leetcode-cn.com/problems/linked-list-cycle/solution/yi-wen-gao-ding-chang-jian-de-lian-biao-wen-ti-h-2/
+// 参考题解（强烈推荐）：https://leetcode-cn.com/problems/linked-list-cycle/solution/yi-wen-gao-ding-chang-jian-de-lian-biao-wen-ti-h-2/
