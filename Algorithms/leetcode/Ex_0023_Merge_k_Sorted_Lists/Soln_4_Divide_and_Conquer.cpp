@@ -50,6 +50,6 @@ private:
     }
 };
 
-// 参考：https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/leetcode-23-he-bing-kge-pai-xu-lian-biao-by-powcai/
+// 参考题解：https://leetcode-cn.com/problems/merge-k-sorted-lists/solution/leetcode-23-he-bing-kge-pai-xu-lian-biao-by-powcai/
 
 // 相较于 Soln_2 的分治算法，该解法的用递归方法来两两合并链，这种解法虽然看起来代码简练，但是会占用更多占空间，可能会导致栈溢出，所以如果可以写成像 Soln_2 那种非递归（或者尾递归）的解法，尽量不要用递归解法

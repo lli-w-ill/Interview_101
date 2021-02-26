@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_23_Merge_k_Sorted_Lists;
+package Algorithms.leetcode.Ex_0023_Merge_k_Sorted_Lists;
 
 import java.util.PriorityQueue;
 import java.util.Comparator;
@@ -48,4 +48,4 @@ class Solution_3 {
     }
 }
 
-// 参考：https://leetcode-cn.com/problems/merge-k-sorted-lists/submissions/
+// 参考题解：https://leetcode-cn.com/problems/merge-k-sorted-lists/submissions/
