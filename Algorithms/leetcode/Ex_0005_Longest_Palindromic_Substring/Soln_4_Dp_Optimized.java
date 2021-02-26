@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_5_Longest_Palindromic_Substring;
+package Algorithms.leetcode.Ex_0005_Longest_Palindromic_Substring;
 
 class Solution_4 {
     public String longestPalindrome(String s) {
