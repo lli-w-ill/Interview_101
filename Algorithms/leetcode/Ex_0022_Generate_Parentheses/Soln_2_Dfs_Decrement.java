@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_22_Generate_Parentheses;
+package Algorithms.leetcode.Ex_0022_Generate_Parentheses;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -33,4 +33,4 @@ class Solution_2 {
     }
 }
 
-// 参考：https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/
+// 参考题解：https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/

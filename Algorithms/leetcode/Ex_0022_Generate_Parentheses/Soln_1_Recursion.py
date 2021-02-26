@@ -1,4 +1,4 @@
-class Solution:
+class Solution_1:
     def generateParenthesis(self, n: int) -> List[str]:
         if n == 0:
             return []
