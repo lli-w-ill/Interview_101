@@ -1,4 +1,4 @@
-class Solution:
+class Solution_1:
     def isValid(self, s: str) -> bool:
         stack = []
         for ch in s:
