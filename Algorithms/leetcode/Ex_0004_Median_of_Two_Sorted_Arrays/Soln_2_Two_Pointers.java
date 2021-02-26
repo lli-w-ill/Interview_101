@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_4_Median_of_Two_Sorted_Arrays;
+package Algorithms.leetcode.Ex_0004_Median_of_Two_Sorted_Arrays;
 
 class Solution_2 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

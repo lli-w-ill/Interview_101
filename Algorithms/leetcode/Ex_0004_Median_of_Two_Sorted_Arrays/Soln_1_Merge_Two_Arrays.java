@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_4_Median_of_Two_Sorted_Arrays;
+package Algorithms.leetcode.Ex_0004_Median_of_Two_Sorted_Arrays;
 
 import java.util.List;
 import java.util.ArrayList;
