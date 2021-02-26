@@ -1,4 +1,4 @@
-class Solution:
+class Solution_2:
     def removeDuplicates(self, nums: List[int]) -> int:
         # slow记录上一个不重复元素的值的下标
         # fast往后扫描
@@ -13,5 +13,5 @@ class Solution:
         return slow + 1
 
 
-# 参考：https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/
+# 参考题解：https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/
 # 优化的点在于：该解法不需要执行pop操作，所以不用移动list中的元素

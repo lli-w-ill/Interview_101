@@ -1,4 +1,4 @@
-class Solution:
+class Solution_1:
     def removeDuplicates(self, nums: List[int]) -> int:
         if not nums:
             return 0
