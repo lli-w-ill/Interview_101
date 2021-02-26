@@ -2,7 +2,7 @@
 
 using std::vector;
 
-class Solution {
+class Solution_3 {
 public:
     void nextPermutation(vector<int>& nums) {
         int len = nums.size();
@@ -46,6 +46,6 @@ private:
     }
 };
 
-// 参考（非常推荐）：https://leetcode-cn.com/problems/next-permutation/solution/xia-yi-ge-pai-lie-suan-fa-xiang-jie-si-lu-tui-dao-/
+// 参考题解（非常推荐）：https://leetcode-cn.com/problems/next-permutation/solution/xia-yi-ge-pai-lie-suan-fa-xiang-jie-si-lu-tui-dao-/
 
 // 相对于Soln_1，这个解法代码更简洁，思路更清晰
