@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_11_Container_With_Most_Water;
+package Algorithms.leetcode.Ex_0011_Container_With_Most_Water;
 
 class Solution_1 {
     public int maxArea(int[] height) {
