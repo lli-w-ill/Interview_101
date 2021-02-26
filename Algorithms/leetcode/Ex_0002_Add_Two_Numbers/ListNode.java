@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_2_Add_Two_Numbers;
+package Algorithms.leetcode.Ex_0002_Add_Two_Numbers;
 
 /**
  * Definition for singly-linked list.
