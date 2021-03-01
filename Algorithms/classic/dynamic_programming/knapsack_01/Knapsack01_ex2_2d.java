@@ -5,7 +5,7 @@ package Algorithms.classic.dynamic_programming.knapsack_01;
  * 已知：
  *  · 有 N 件物品，所有物品的重量存放在一个数组 c 中，第 i 件物品的重量为 c[i] (0 <= i < N). 所有物品的价值存放在一个数组 w 中，第 i 件物品的价值为 w[i] (0 <= i < N)
  *  · 有一个容量为 V 的背包
- * 求解：「在无序把背包装满的情况下」，哪些物品装入背包可以总价值最大
+ * 求解：「在需要把背包装满的情况下」，哪些物品装入背包可以总价值最大（注：这里是相对于 ex1 题目中唯一的变化）
  * 
  * 
  * 二、思路：
@@ -35,7 +35,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
 
-class Solution_1 {
+public class Knapsack01_ex2_2d {
 
     public static void knapsack01(int N, int[] c, int[] w, int V) {
         // f[i][j] 表示考虑前 i 个物品，背包重量为 j 情况下可以得到的最大价值
@@ -43,10 +43,17 @@ class Solution_1 {
         // 最终 f[N][V] 即为所求
         int[][] f = new int[N+1][V+1];
 
+        // 注：这里是唯一的变化
         // 初始化 f
         for (int i = 0; i <= N; i++) {
             for (int v = 0; v <= V; v++) {
-                f[i][v] = 0;
+                if (v == 0) {
+                    f[i][v] = 0;
+                } else {
+                    // 因为必须要把背包装满，所以只有 v = 0 时初始为 0，迫使填表时跳到上一行列为 0 的位置
+                    f[i][v] = Integer.MIN_VALUE;
+                }
+                
             }
         }
 
@@ -142,10 +149,10 @@ class Solution_1 {
 /**
  * 输出结果：
 最大价值为：87
-0 1 1 1 1 1 1 0 0 1 0 
+0 1 1 1 1 1 0 0 1 1 0 
 
 最大价值为：85
-0 1 1 1 1 1 1 0 0 0 0 
+0 1 1 1 1 1 0 1 0 0 0 
 
 最大价值为：82
 0 1 1 1 0 1 1 1 1 0 0 
