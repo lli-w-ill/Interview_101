@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+-- Write your MySQL query statement below
 SELECT DISTINCT Num AS 'ConsecutiveNums' FROM (    
     SELECT Num, COUNT(1) AS 'SerialCount' FROM (
         SELECT Id, Num,
@@ -11,4 +11,4 @@ SELECT DISTINCT Num AS 'ConsecutiveNums' FROM (
 ) AS Result
 
 
-# 参考：https://leetcode-cn.com/problems/consecutive-numbers/solution/sql-server-jie-fa-by-neilsons/
+-- 参考：https://leetcode-cn.com/problems/consecutive-numbers/solution/sql-server-jie-fa-by-neilsons/

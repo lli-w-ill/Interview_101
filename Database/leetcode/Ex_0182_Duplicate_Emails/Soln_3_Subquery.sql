@@ -1,4 +1,4 @@
-# Write your MySQL query statement below
+-- Write your MySQL query statement below
 SELECT Email
 FROM (
     SELECT Email, COUNT(Email) AS 'Freq'
