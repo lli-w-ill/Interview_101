@@ -1,0 +1,18 @@
+SOLID Principles
+
+1. Definition
+
+SOLID is an acronym for 5 design principles: 
+
+    S: Single responsibility principle
+    O: Open-closed principle
+    L: Liskov substitution principle
+    I: Interface segregation principle
+    D: Dependency inversion
+
+
+
+2. Purpose
+
+To make software design more understandable and maintanable.
+
