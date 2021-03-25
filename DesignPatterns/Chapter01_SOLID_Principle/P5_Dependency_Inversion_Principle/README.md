@@ -49,6 +49,7 @@ public class Person {
 
 | wrong | right |
 | ----- | ----- |
-| [!images/image1.png] | [!images/image2.png] |
+| ![image1](images/image1.png) | ![image2](images/image2.png) |
+
 
 
