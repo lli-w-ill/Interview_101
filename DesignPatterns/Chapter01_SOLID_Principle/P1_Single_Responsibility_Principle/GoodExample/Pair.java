@@ -1,4 +1,4 @@
-package DesignPatterns.Chapter01_SOLID_Principle.Single_Responsibility_Principle.GoodExample;
+package DesignPatterns.Chapter01_SOLID_Principle.P1_Single_Responsibility_Principle.GoodExample;
 
 public class Pair {
 

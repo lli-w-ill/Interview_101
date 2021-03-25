@@ -1,20 +1,6 @@
-package DesignPatterns.Chapter01_SOLID_Principle.Single_Responsibility_Principle.BadExample;
+package DesignPatterns.Chapter01_SOLID_Principle.P1_Single_Responsibility_Principle.BadExample;
 
 import java.util.Scanner;
-
-/**
- * S: Single responsibility principle
- * 
- * 1. Definition
- * Every single class/method should have *ONLY 1 single reason to change*.
- * Every single class/method should *ONLY handle 1 single responsibility*.
- * 
- * 2. Coupling
- * Tight coupling (bad): classes are highly dependent on one another
- * Lossely coupling (good): classes are independent of each other
- * 
- * 
- */
 
 /**
  * This bad example (tight coupling) violates the single responsibility principle because there are multiple responsibilities (Scanner input, Convert input to integers, Mathmatical operation) within the main method

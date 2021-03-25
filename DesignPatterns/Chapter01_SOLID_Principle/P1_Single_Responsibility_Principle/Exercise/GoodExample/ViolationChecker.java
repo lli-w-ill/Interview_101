@@ -1,4 +1,4 @@
-package DesignPatterns.Chapter01_SOLID_Principle.Single_Responsibility_Principle.Exercise.GoodExample;
+package DesignPatterns.Chapter01_SOLID_Principle.P1_Single_Responsibility_Principle.Exercise.GoodExample;
 
 public class ViolationChecker {
     
