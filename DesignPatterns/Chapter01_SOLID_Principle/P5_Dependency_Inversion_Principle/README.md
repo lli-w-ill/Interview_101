@@ -16,6 +16,8 @@ Abstraction should not depend on details. Details (concrete implementation) shou
 
 Add an abstract layer between Application (high level modules) and Low-level modules.
 
+Example: 
+
 (Bad) 
 
 ```java
@@ -28,8 +30,6 @@ Dog dog = new Dog();
 Animal dog = new Dog();
 ```
 
-
-## Dependency Injection
 
 1. Avoid tightly coupled dependency
 
@@ -47,9 +47,17 @@ public class Person {
 
 3. Modules should depend on abstraction.
 
-| wrong | right |
-| ----- | ----- |
+| Wrong | Correct |
+| ----- | ------- |
+| Object A depends on Object B | Object A and B depend on abstraction (Interface A) |
 | ![image1](images/image1.png) | ![image2](images/image2.png) |
 
 
+## How to achieve dependency inversion
+
+1. Use design patterns: factory pattern, template pattern, strategy pattern.
+
+2. Use service locator pattern.
+
+3. Use dependency injection.
 
