@@ -21,7 +21,7 @@ Structural Patterns are designed for class structure (how to increase the functi
 
 ## 3. Behavioral Patterns
 
-Behavioral Patterns are dealing with how to communicate effectiely between given classes.
+Behavioral Patterns are dealing with how to communicate effectiely between given classes. These patterns increase flexibility in carrying out the communication.
 
 
 # References
