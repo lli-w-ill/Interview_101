@@ -17,7 +17,7 @@ Creational Patterns are designed for **class instantiation** (class creational p
 
 ## 2. Structural patterns
 
-Structural Patterns are designed for class structure (how to increase the functionality of a class).
+Structural Patterns are designed for class structure (how classes and objects can be composed to form larger structures and how to increase the functionality of a class).
 
 ## 3. Behavioral Patterns
 
