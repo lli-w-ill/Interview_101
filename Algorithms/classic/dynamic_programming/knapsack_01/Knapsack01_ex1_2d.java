@@ -1,4 +1,4 @@
-package Algorithms.classic.dynamic_programming.knapsack_01;
+package Algorithms.classic.Dynamic_Programming.knapsack_01;
 
 /**
  * 一、题目：
