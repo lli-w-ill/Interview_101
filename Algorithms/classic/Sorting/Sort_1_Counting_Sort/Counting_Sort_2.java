@@ -1,10 +1,9 @@
-package Algorithms.classic.sort.Sort_1_Counting_Sort;
+package Algorithms.classic.Sorting.Sort_1_Counting_Sort;
 
-// 计数排序（实现一）
+// 计数排序（实现二）
 // 时间复杂度：O(n+k)
 // 空间复杂度：O(k)
-public class Counting_Sort_1 {
-
+public class Counting_Sort_2 {
     private static int[] countSort(int[] arr) {
         if (arr == null || arr.length == 0) {
             return null;
@@ -25,14 +24,17 @@ public class Counting_Sort_1 {
             // 递增频率数组
             freq[pos]++;
         }
-        // 根据频率数组，对 arr 进行排序
-        int index = 0;
-        for (int i = 0; i < freq.length; i++) {
-            while (freq[i]-- > 0) {
-                arr[index++] = i + min;
-            }
+        // 计算每个数字应该在排序后数组的应该处于的位置
+        for (int i = 1; i < freq.length; i++) {
+            freq[i] = freq[i - 1] + freq[i];
         }
-        return arr;
+        // 根据频率数组，对 arr 进行排序
+        int[] res = new int[arr.length];
+        for (int i = 0; i < freq.length; i++) {
+            int pos = --freq[arr[i] - min];
+            res[pos] = arr[i];
+        }
+        return res;
     }
 
     public static void main(String[] args) {
