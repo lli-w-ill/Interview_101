@@ -88,11 +88,37 @@ Usually Way 1 and Way 2 are preferred. Because:
     * Reason 3: Implement Runnable does no harm in the software logic
 
 
+## Daemon Threads and Worker Threads
+
+When we start a program, a main thread is started at the beginning. We can create child threads from the main thread. The main thread is the last thread to finish execution.
+
+### Daemon Threads
+
+Daemon threads are intended as helper threads. They are low-priority threads that runs in background to perform tasks such as garbage collection.
+
+Usually daemon threads for **I/O operations or services**.
+
+Daemon threads are terminated by the **JVM** when **all other worker threads are terminated**.
+
+We need to use `setDaemon(true)` to set a worker thread to be daemon thread.
+
+
+### Worker Threads
+
+Worker threads are not terminated while daemon threads are interrupted by the JVM.
+
+When we create a thread, it is a worker thread by default.
+
+
 ## Examples
 
 Example 1: incrementor
 
-Example 2: 
+Example 2: 3 ways to instantiate a thread
+
+Example 3: join method
+
+Example 4: Daemon Threads and Worker Threads
 
 
 # References
