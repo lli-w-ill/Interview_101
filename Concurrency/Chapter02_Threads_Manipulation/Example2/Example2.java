@@ -1,6 +1,6 @@
-package Concurrency.Chapter02_Threads_Manipulation.Example1;
+package Concurrency.Chapter02_Threads_Manipulation.Example2;
 
-class Runner111 extends Thread {
+class Runner1 extends Thread {
 
     @Override
     public void run() {
@@ -16,7 +16,7 @@ class Runner111 extends Thread {
 
 }
 
-class Runner222 extends Thread {
+class Runner2 extends Thread {
 
     @Override
     public void run() {
@@ -34,15 +34,24 @@ class Runner222 extends Thread {
 }
 
 
-public class Example2_extends_Thread {
+public class Example2 {
     
     public static void main(String[] args) {
 
-        Thread t1 = new Runner111();
-        Thread t2 = new Runner222();
+        Thread t1 = new Runner1();
+        Thread t2 = new Runner2();
 
         t1.start();
         t2.start();
+
+        // wait for threads to finish, and then print "Finished with threads..."
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Finished with threads...");
 
     }
 

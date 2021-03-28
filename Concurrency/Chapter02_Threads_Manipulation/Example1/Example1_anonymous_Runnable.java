@@ -1,6 +1,6 @@
 package Concurrency.Chapter02_Threads_Manipulation.Example1;
 
-public class Example2_anonymous_Runnable {
+public class Example1_anonymous_Runnable {
     
     public static void main(String[] args) {
 

@@ -16,7 +16,7 @@ class Runner2 {
     }
 }
 
-public class Example2_sequential {
+public class Example1_sequential {
     
     public static void main(String[] args) {
 

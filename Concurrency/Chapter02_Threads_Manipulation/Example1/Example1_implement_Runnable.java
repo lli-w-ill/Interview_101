@@ -26,7 +26,7 @@ class Runner22 implements Runnable {
     }
 }
 
-public class Example2_implement_Runnable {
+public class Example1_implement_Runnable {
     
     public static void main(String[] args) {
 
