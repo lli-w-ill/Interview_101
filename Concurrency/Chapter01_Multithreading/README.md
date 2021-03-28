@@ -25,6 +25,8 @@ thread #2     ---   ---   ---   --Done
 
 4. **Parallel Computing**: Every single processor core has just a single thread so that the thread can run continously. So there is no time-slicing in Parallel Computing.
 
+![image1](images/image1.png)
+
 
 ## Pros and Cons
 
@@ -63,4 +65,39 @@ States:
                                             ↑  ↓
                                         WAITING state
 ```
+
+
+## Construct Thread
+
+### Way 1: Implement Runnable interface
+
+see *Example2_implement_Runnable.java*
+
+### Way 2: Anonymous Runnable
+
+see *Example2_anonymous_Runnable.java*
+
+### Way 3: Extends Thread class
+
+see *Example2_extends_Thread.java*
+
+Usually Way 1 and Way 2 are preferred. Because:
+
+    * Reason 1: The class which extends Thread cannot extends other class
+    * Reason 2: Interfaces allows multi-inheritance
+    * Reason 3: Implement Runnable does no harm in the software logic
+
+
+## Examples
+
+Example 1: incrementor
+
+Example 2: 
+
+
+# References
+
+1. [Interface Runnable](https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html)
+
+2. [Class Thread](https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html)
 
