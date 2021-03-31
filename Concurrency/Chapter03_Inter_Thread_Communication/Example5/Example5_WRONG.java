@@ -16,7 +16,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Example5_WRONG {
    
     private static int counter = 0;
-    private static Lock lock = new ReentrantLock();
+    // private static Lock lock = new ReentrantLock();
 
     public static void increment() {
         for (int i = 0; i < 10000; i++) {
