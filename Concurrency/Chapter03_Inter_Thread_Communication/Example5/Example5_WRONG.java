@@ -1,8 +1,5 @@
 package Concurrency.Chapter03_Inter_Thread_Communication.Example5;
 
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
 /**
  * Reentrant Lock
  *      - it has the same behavior as the "synchronized" approach
