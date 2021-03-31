@@ -13,6 +13,10 @@
 
 2. **Thread**: a light-weight process. It is a unit of execution within a given process. Each thread in the process shares the memoyr and resources of the belonging process such as register, stack memory etc metioned above.
 
+**Difference between processes and threads:**
+
+Threads of the same process run in a shared memory space, while processes run in separate memory spaces.
+
 3. **Time-slicing**: Processing time for a single core is shared among processes and threads.
 
     * Example: 
