@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
+package Algorithms.leetcode.Ex_0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array;
 
 class Solution_4 {
     public int[] searchRange(int[] nums, int target) {
