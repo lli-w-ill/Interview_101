@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_32_Longest_Valid_Parentheses;
+package Algorithms.leetcode.Ex_0032_Longest_Valid_Parentheses;
 
 class Solution_2 {
     public int longestValidParentheses(String s) {
