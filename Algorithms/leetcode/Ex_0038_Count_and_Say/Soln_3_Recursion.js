@@ -12,3 +12,5 @@ var countAndSay = function(n) {
     }
     return res;
 };
+
+// 参考题解：https://leetcode-cn.com/problems/count-and-say/solution/mei-ju-fa-di-gui-fa-by-zn_-qpe8/
