@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_48_Rotate_Image;
+package Algorithms.leetcode.Ex_0048_Rotate_Image;
 
 class Solution_3 {
     public void rotate(int[][] matrix) {
