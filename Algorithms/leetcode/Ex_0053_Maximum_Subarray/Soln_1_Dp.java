@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_53_Maximum_Subarray;
+package Algorithms.leetcode.Ex_0053_Maximum_Subarray;
 
 class Solution_1 {
     public int maxSubArray(int[] nums) {

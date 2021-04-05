@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_53_Maximum_Subarray;
+package Algorithms.leetcode.Ex_0053_Maximum_Subarray;
 
 class Solution_2 {
     private int max = Integer.MIN_VALUE;
