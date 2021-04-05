@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_72_Edit_Distance;
+package Algorithms.leetcode.Ex_0072_Edit_Distance;
 
 class Solution_1 {
     public int minDistance(String word1, String word2) {
