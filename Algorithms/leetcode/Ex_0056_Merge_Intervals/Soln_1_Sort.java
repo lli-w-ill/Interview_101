@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_56_Merge_Intervals;
+package Algorithms.leetcode.Ex_0056_Merge_Intervals;
 
 import java.util.Arrays;
 import java.util.Stack;
