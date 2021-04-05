@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_55_Jump_Game;
+package Algorithms.leetcode.Ex_0055_Jump_Game;
 
 class Solution_1 {
     public boolean canJump(int[] nums) {
