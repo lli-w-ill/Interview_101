@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_49_Group_Anagrams;
+package Algorithms.leetcode.Ex_0049_Group_Anagrams;
 
 import java.util.Map;
 import java.util.HashMap;
