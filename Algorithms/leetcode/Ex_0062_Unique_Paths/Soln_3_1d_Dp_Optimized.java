@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_62_Unique_Paths;
+package Algorithms.leetcode.Ex_0062_Unique_Paths;
 
 import java.util.Arrays;
 
