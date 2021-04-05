@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_46_Permutations;
+package Algorithms.leetcode.Ex_0046_Permutations;
 
 import java.util.List;
 import java.util.ArrayList;
