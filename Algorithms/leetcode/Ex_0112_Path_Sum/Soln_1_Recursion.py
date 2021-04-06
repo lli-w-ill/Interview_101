@@ -4,21 +4,23 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_1:
     def hasPathSum(self, root: TreeNode, targetSum: int) -> bool:
         # base cases
         if not root and targetSum == 0:
             return True
         if not root and targetSum != 0:
             return False
+        if root and not root.left and not root.right:
+            return root.val == targetSum
 
-        stack = [(root, targetSum)]
-        while stack:
-            node, ts = stack.pop(0)
-            if not node.left and not node.right and ts == node.val:
+        if root.left:
+            goLeft = self.hasPathSum(root.left, targetSum - root.val)
+            if goLeft:
                 return True
-            if node.left:
-                stack.append((node.left, ts - node.val))
-            if node.right:
-                stack.append((node.right, ts - node.val))
+        if root.right:
+            goRight = self.hasPathSum(root.right, targetSum - root.val)
+            if goRight:
+                return True
         return False
