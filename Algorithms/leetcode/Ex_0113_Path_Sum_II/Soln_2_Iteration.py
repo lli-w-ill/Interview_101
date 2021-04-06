@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_2:
     def pathSum(self, root: TreeNode, targetSum: int) -> List[List[int]]:
         ans = []
         stack = [(root, targetSum, [])]
