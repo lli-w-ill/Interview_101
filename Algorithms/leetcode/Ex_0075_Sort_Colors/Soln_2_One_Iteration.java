@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_75_Sort_Colors;
+package Algorithms.leetcode.Ex_0075_Sort_Colors;
 
 class Solution_2 {
     public void sortColors(int[] nums) {

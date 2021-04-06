@@ -4,7 +4,7 @@
 using std::vector;
 using std::swap;
 
-class Solution
+class Solution_3
 {
 public:
     void sortColors(vector<int> &nums)
