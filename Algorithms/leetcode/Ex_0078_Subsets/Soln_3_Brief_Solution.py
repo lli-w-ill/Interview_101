@@ -1,4 +1,4 @@
-class Solution:
+class Solution_3:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         res = [[]]
         for num in nums: 
