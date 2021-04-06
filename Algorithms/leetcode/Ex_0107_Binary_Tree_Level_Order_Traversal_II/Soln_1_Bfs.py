@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+class Solution_1:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         levelOrder = []
         if root is None:
