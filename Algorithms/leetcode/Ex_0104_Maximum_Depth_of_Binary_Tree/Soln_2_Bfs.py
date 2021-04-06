@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_2:
     def maxDepth(self, root: TreeNode) -> int:
         level_queue = []
         level_queue.append(root)
