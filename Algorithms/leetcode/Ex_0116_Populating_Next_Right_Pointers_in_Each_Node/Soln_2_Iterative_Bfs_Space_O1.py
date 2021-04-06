@@ -11,7 +11,7 @@ class Node:
 from collections import defaultdict
 
 
-class Solution:
+class Solution_2:
     def connect(self, root: 'Node') -> 'Node':
         prev = root
         while prev and prev.left:

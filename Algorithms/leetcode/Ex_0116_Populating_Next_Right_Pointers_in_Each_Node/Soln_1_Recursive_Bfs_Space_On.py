@@ -11,7 +11,7 @@ class Node:
 from collections import defaultdict
 
 
-class Solution:
+class Solution_1:
     def connect(self, root: 'Node') -> 'Node':
         if not root:
             return None
