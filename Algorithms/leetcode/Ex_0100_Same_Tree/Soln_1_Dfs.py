@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_1:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         return self.dfs(p, q)
 
