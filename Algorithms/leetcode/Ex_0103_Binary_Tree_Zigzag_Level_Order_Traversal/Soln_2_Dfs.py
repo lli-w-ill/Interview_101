@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+class Solution_2:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
         if root is None:
             return []
