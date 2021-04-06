@@ -1,4 +1,4 @@
-class Solution:
+class Solution_2:
     def minWindow(self, s: str, t: str) -> str:
         from collections import defaultdict
         left, right = 0, -1

@@ -1,4 +1,4 @@
-class Solution:
+class Tle_1:
     def minWindow(self, s: str, t: str) -> str:
         import copy
         from collections import defaultdict
