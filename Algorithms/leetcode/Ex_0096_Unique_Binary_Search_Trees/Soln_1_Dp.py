@@ -1,4 +1,4 @@
-class Solution:
+class Solution_1:
     def numTrees(self, n: int) -> int:
         dp = [0] * (n + 1)
         dp[0] = 1   # None as root
