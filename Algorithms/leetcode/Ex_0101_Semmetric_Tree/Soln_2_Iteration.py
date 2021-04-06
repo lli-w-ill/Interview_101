@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+class Solution_2:
     def isSymmetric(self, root: TreeNode) -> bool:
         if root is None:
             return True
