@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_85_Maximal_Rectangle;
+package Algorithms.leetcode.Ex_0085_Maximal_Rectangle;
 
 class Solution_1 {
     public int maximalRectangle(char[][] matrix) {

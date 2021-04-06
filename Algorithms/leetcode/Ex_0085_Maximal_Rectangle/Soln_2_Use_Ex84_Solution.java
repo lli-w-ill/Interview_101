@@ -1,9 +1,9 @@
-package Algorithms.leetcode.Ex_85_Maximal_Rectangle;
+package Algorithms.leetcode.Ex_0085_Maximal_Rectangle;
 
 import java.util.Deque;
 import java.util.ArrayDeque;
 
-class Solution {
+class Solution_2 {
     public int maximalRectangle(char[][] matrix) {
         if (matrix.length == 0) {
             return 0;
