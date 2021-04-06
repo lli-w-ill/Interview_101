@@ -1,4 +1,4 @@
-class Solution:
+class Tle_1:
     def largestRectangleArea(self, heights: List[int]) -> int:
         if not heights:
             return 0

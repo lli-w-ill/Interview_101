@@ -1,9 +1,9 @@
-package Algorithms.leetcode.Ex_84_Largest_Rectangle_in_Histogram;
+package Algorithms.leetcode.Ex_0084_Largest_Rectangle_in_Histogram;
 
 import java.util.Deque;
 import java.util.ArrayDeque;
 
-class Solution {
+class Solution_4 {
     public int largestRectangleArea(int[] heights) {
         int len = heights.length;
         if (len == 0) {

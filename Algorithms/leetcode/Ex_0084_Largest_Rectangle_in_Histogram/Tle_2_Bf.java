@@ -1,6 +1,6 @@
-package Algorithms.leetcode.Ex_84_Largest_Rectangle_in_Histogram;
+package Algorithms.leetcode.Ex_0084_Largest_Rectangle_in_Histogram;
 
-class Solution_1 {
+class Tle_2 {
     public int largestRectangleArea(int[] heights) {
         int len = heights.length;
         if (len == 0) {
