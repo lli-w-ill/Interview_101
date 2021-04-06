@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_79_Word_Search;
+package Algorithms.leetcode.Ex_0079_Word_Search;
 
 class Solution_2 {
     private boolean[][] marked;

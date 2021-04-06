@@ -4,7 +4,7 @@
 using std::vector;
 using std::string;
 
-class Solution {
+class Solution_1 {
 public:
     bool exist(vector<vector<char> >& board, string word) {
         // 特判
