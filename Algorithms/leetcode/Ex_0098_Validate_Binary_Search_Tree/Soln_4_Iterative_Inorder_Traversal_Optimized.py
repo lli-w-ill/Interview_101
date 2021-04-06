@@ -11,7 +11,7 @@
 #         self.right = right
 
 
-class Solution:
+class Solution_4:
     def isValidBST(self, root: TreeNode) -> bool:
         stack = []
         prev_inorder = None

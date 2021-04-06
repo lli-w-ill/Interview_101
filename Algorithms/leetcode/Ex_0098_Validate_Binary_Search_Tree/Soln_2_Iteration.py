@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_2:
     def isValidBST(self, root: TreeNode) -> bool:
         self.lowers = []  # lower bound
         self.uppers = []  # upper bound
