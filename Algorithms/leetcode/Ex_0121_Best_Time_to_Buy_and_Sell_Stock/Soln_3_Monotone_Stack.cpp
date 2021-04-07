@@ -6,7 +6,7 @@ using std::vector;
 using std::stack;
 using std::max;
 
-class Solution {
+class Solution_3 {
 public:
     int maxProfit(vector<int>& prices) {
         int res = 0;

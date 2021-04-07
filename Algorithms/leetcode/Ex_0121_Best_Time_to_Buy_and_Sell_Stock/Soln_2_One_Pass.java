@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_121_Best_Time_to_Buy_and_Sell_Stock;
+package Algorithms.leetcode.Ex_0121_Best_Time_to_Buy_and_Sell_Stock;
 
 class Solution_2 {
     public int maxProfit(int[] prices) {
