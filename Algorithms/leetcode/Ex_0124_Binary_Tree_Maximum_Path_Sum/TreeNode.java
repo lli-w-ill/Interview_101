@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_124_Binary_Tree_Maximum_Path_Sum;
+package Algorithms.leetcode.Ex_0124_Binary_Tree_Maximum_Path_Sum;
 
 public class TreeNode {
     int val;

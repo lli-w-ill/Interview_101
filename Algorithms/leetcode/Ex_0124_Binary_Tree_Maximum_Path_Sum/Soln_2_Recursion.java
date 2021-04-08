@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_124_Binary_Tree_Maximum_Path_Sum;
+package Algorithms.leetcode.Ex_0124_Binary_Tree_Maximum_Path_Sum;
 
 /**
  * Definition for a binary tree node.
@@ -15,7 +15,7 @@ package Algorithms.leetcode.Ex_124_Binary_Tree_Maximum_Path_Sum;
  *     }
  * }
  */
-class Solution {
+class Solution_2 {
     private int res = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
