@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_287_Find_the_Duplicate_Number;
+package Algorithms.leetcode.Ex_0287_Find_the_Duplicate_Number;
 
 
 class Solution_4 {
