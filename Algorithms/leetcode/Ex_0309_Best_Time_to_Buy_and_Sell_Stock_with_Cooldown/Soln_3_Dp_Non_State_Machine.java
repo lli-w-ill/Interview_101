@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown;
+package Algorithms.leetcode.Ex_0309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown;
 
 class Solution_3 {
     public int maxProfit(int[] prices) {
