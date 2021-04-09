@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_128_Longest_Consecutive_Sequence;
+package Algorithms.leetcode.Ex_0128_Longest_Consecutive_Sequence;
 
 import java.util.Set;
 import java.util.HashSet;
