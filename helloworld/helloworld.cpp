@@ -1,29 +1,20 @@
 #include <iostream>
 #include <vector>
+#include <set>
 
 using std::vector;
 using std::cout;
 using std::endl;
 
 int main() {
-    std::cout << "hello world" << std::endl;
-
-    vector<char> hello {'h', 'e', 'l', 'l', 'o'};
-    vector<vector<char> > hw {
-        {'h', 'e', 'l', 'l', 'o'},
-        {'w', 'o', 'r', 'l', 'd'}
+    std::set<std::pair<std::string, int>> set = {
+        {"A", 4}, {"B", 4}, {"C", 1}, {"A", 0}, {"B", 4}
     };
-    for (char c : hello) {
-        cout << c;
+ 
+    for (auto const &p: set) {
+        std::cout << p.first << " " << p.second << '\n';
     }
-    cout << endl;
-    for (auto vec : hw) {
-        for (auto c : vec) {
-            cout << c;
-        }
-        cout << " ";
-    }
-    cout << endl;
+
 
     return 0;
 }
