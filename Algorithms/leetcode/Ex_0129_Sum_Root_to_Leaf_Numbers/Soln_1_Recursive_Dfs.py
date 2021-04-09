@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_1:
     def sumNumbers(self, root: TreeNode) -> int:
         ssum = [0]
         self.dfs(root, 0, ssum)
