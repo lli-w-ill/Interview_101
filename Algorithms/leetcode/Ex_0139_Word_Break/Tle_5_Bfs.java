@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_139_Word_Break;
+package Algorithms.leetcode.Ex_0139_Word_Break;
 
 import java.util.List;
 import java.util.Set;
@@ -6,11 +6,10 @@ import java.util.HashSet;
 import java.util.Deque;
 import java.util.ArrayDeque;
 
-class Solution_6 {
+class Tle_5 {
     public boolean wordBreak(String s, List<String> wordDict) {
         int len = s.length();
         Set<String> wordSet = new HashSet<String>();
-        Set<Integer> visited = new HashSet<Integer>();  // 记录哪些startIdx之前曾经已经计算过了
         // 将所有单词放到一个 set 中，减少查词时的复杂度
         for (String word : wordDict) {
             wordSet.add(word);
@@ -20,14 +19,6 @@ class Solution_6 {
         deque.add(0);
         while (!deque.isEmpty()) {
             int startIdx = deque.pollFirst();
-            
-            // 防止计算重复问题（剪枝）
-            if (visited.contains(startIdx)) {
-                continue;
-            } else {
-                visited.add(startIdx);
-            }
-
             for (int i = startIdx; i <= len; i++) { // 这里循环到len，因为substring 是 right-exclusive 的
                 String sub = s.substring(startIdx, i);
                 if (wordSet.contains(sub)) {
@@ -49,5 +40,9 @@ class Solution_6 {
     }
 }
 
-// 题解参考（强烈推荐）：https://leetcode-cn.com/problems/word-break/solution/shou-hui-tu-jie-san-chong-fang-fa-dfs-bfs-dong-tai/
 
+// 题解参考（强烈推荐）：https://leetcode-cn.com/problems/word-break/solution/shou-hui-tu-jie-san-chong-fang-fa-dfs-bfs-dong-tai/
+// 超时测试用例：
+// "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+// ["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"]
+// 因为没有剪枝，肯定会有很多相同的问题被重复计算过，所以超时

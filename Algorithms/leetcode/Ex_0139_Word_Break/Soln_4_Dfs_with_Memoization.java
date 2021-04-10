@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_139_Word_Break;
+package Algorithms.leetcode.Ex_0139_Word_Break;
 
 import java.util.Set;
 import java.util.HashSet;
