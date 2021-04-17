@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_200_Number_of_Islands;
+package Algorithms.leetcode.Ex_0200_Number_of_Islands;
 
 class Solution_4 {
     private int res = 0;
