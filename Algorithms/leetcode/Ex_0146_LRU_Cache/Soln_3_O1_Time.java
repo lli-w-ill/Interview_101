@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_146_LRU_Cache;
+package Algorithms.leetcode.Ex_0146_LRU_Cache;
 
 import java.util.HashMap;
 
