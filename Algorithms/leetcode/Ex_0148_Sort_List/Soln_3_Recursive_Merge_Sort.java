@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_148_Sort_List;
+package Algorithms.leetcode.Ex_0148_Sort_List;
 
 /**
  * Definition for singly-linked list.
@@ -10,7 +10,7 @@ package Algorithms.leetcode.Ex_148_Sort_List;
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class Solution_3 {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
             // 链表为空 或 只包含一个元素的链表则直接返回，因为已经是有序的

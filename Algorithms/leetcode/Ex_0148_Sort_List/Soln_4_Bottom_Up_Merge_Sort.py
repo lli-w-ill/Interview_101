@@ -4,7 +4,7 @@ class ListNode:
         self.val = val
         self.next = next
 
-class Solution:
+class Solution_4:
     def sortList(self, head: ListNode) -> ListNode:
         h = head
         length = 0  # 表示原链表长度
