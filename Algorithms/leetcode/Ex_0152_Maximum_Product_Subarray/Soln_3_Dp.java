@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_152_Maximum_Product_Subarray;
+package Algorithms.leetcode.Ex_0152_Maximum_Product_Subarray;
 
 class Solution_3 {
     public int maxProduct(int[] nums) {
