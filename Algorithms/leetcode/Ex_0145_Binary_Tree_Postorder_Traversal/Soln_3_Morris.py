@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_3:
     def postorderTraversal(self, root: TreeNode) -> List[int]:
         if not root:
             return []
