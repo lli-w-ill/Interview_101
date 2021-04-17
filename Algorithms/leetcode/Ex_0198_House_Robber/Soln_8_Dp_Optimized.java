@@ -1,6 +1,6 @@
-package Algorithms.leetcode.Ex_198_House_Robber;
+package Algorithms.leetcode.Ex_0198_House_Robber;
 
-class Solution_6 {
+class Solution_8 {
     public int rob(int[] nums) {
         int len = nums.length;
         // 特判

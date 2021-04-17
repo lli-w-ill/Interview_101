@@ -4,7 +4,7 @@
 using std::vector;
 using std::max;
 
-class Solution_6 {
+class Solution_7 {
 public:
     int rob(vector<int>& nums) {
         int size = nums.size();
