@@ -2,7 +2,7 @@
 
 using std::vector;
 
-class Solution {
+class Solution_4 {
 public:
     int majorityElement(vector<int>& nums) {
         sort(nums.begin(), nums.end());

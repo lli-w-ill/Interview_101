@@ -2,7 +2,7 @@
 
 using std::vector;
 
-class Solution {
+class Solution_5 {
 public:
     int majorityElement(vector<int>& nums) {
         int candidate = -1;
