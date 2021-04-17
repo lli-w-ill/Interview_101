@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_142_Linked_List_Cycle_II;
+package Algorithms.leetcode.Ex_0142_Linked_List_Cycle_II;
 
 public  class ListNode {
     int val;
