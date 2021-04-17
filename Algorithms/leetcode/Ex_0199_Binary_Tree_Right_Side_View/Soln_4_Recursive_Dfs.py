@@ -6,7 +6,7 @@
 #         self.right = right
 #         self.next = next
 
-class Solution:
+class Solution_4:
     def rightSideView(self, root: TreeNode) -> List[int]:
         return self.dfs(root, 0, [])
 
@@ -21,4 +21,4 @@ class Solution:
         return rightView
 
 
-# 参考：https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/jian-dan-bfsdfs-bi-xu-miao-dong-by-sweetiee/
+# 参考题解：https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/jian-dan-bfsdfs-bi-xu-miao-dong-by-sweetiee/

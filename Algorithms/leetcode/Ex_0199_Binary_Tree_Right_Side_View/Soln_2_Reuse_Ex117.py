@@ -7,7 +7,7 @@ class TreeNode:
         self.next = next
 
 
-class Solution:
+class Solution_2:
     def rightSideView(self, root: TreeNode) -> List[int]:
         head = self.connect(root)
         currLevelLeftmost = head

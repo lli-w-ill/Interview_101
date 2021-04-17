@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_1:
     def rightSideView(self, root: TreeNode) -> List[int]:
         rightView = []
         if not root:

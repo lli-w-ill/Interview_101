@@ -5,7 +5,8 @@
 #         self.left = left
 #         self.right = right
 #         self.next = next
-class Solution:
+
+class Solution_3:
     def rightSideView(self, root: TreeNode) -> List[int]:
         if not root:
             return []
@@ -24,5 +25,5 @@ class Solution:
         return rightView
 
 
-# 参考：https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/jian-dan-bfsdfs-bi-xu-miao-dong-by-sweetiee/
+# 参考题解：https://leetcode-cn.com/problems/binary-tree-right-side-view/solution/jian-dan-bfsdfs-bi-xu-miao-dong-by-sweetiee/
 # 优化点：只用一个list
