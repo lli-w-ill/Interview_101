@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_2:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
         po = []
         stack = [root]
