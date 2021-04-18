@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_240_Search_a_2D_Matrix_II;
+package Algorithms.leetcode.Ex_0240_Search_a_2D_Matrix_II;
 
 class Solution_4 {
     public boolean searchMatrix(int[][] matrix, int target) {
