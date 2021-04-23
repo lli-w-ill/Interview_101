@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_279_Perfect_Squares;
+package Algorithms.leetcode.Ex_0279_Perfect_Squares;
 
 import java.util.Queue;
 import java.util.LinkedList;
