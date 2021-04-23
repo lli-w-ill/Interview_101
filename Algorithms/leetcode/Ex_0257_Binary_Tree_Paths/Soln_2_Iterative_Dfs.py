@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution_2:
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
         paths = []
         if not root:
