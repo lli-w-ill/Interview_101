@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution_1:
     def kthSmallest(self, root: TreeNode, k: int) -> int:
         return self.inorder(root, k)[0].val
 

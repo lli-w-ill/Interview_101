@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution_2:
     def kthSmallest(self, root: TreeNode, k: int) -> int:
         if not root:
             return 0
@@ -21,4 +21,4 @@ class Solution:
             node = node.right
 
 
-# 参考：https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/solution/er-cha-sou-suo-shu-zhong-di-kxiao-de-yuan-su-by-le/
+# 参考题解：https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/solution/er-cha-sou-suo-shu-zhong-di-kxiao-de-yuan-su-by-le/
