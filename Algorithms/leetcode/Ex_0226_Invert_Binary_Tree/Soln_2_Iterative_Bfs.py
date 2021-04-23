@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution_2:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if not root:
             return root
