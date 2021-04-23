@@ -8,14 +8,20 @@ import java.util.ArrayDeque;
 class Solution_2 {
     // 用 map 维护运算符优先级
     // value 越小，优先级越低
-    private Map<Character, Integer> precedence = new HashMap<>() {{
-        put('-', 1);
-        put('+', 1);
-        put('*', 2);
-        put('/', 2);
-        put('%', 2);
-        put('^', 3);
-    }};
+    private Map<Character, Integer> precedence = new HashMap<Character, Integer>() {
+        /**
+         *
+         */
+        private static final long serialVersionUID = 1L;
+        
+        {
+            put('-', 1);
+            put('+', 1);
+            put('*', 2);
+            put('/', 2);
+            put('%', 2);
+            put('^', 3);
+        }};
 
     public int calculate(String s) {
         // 去掉所有的空格，并处理括号后紧接着正负号的情况 (- => (0- ; (+ => (0+
