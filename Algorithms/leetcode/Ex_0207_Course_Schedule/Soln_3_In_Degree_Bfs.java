@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_207_Course_Schedule;
+package Algorithms.leetcode.Ex_0207_Course_Schedule;
 
 import java.util.List;
 import java.util.ArrayList;

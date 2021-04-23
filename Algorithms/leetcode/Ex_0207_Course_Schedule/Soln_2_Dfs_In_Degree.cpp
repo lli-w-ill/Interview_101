@@ -6,7 +6,7 @@ using std::vector;
 using std::unordered_set;
 using std::set;
 
-class Solution {
+class Solution_2 {
 public:
     bool canFinish(int numCourses, vector<vector<int> >& prerequisites) {
         // graph[i]：表示课程i是graph[i]中所有课程的先修课，即在「有向图中」，有从 i -> graph[i]中所有课程编号的有向边
