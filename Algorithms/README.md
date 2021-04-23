@@ -5,4 +5,5 @@
 
 1. [windliang 的 leetcode 题解](https://leetcode.wang/)
 
-2. 
+2. [代码随想录整理的 github 刷题攻略](https://github.com/youngyangyang04/leetcode-master)
+
