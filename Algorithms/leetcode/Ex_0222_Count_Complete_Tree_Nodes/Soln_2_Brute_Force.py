@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution_2:
     def countNodes(self, root: TreeNode) -> int:
         if not root:
             return 0
