@@ -9,7 +9,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
-class Solution {
+class Solution_3 {
 public:
     ListNode *detectCycle(ListNode *head) {
         ListNode *slow = head;
