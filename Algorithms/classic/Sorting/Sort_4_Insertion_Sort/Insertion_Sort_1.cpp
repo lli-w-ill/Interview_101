@@ -17,6 +17,8 @@ void insertion_sort(vector<int> &nums, int size) {
 }
 
 int main() {
+    cout << "***** 插入排序 *****" << endl;
+
     vector<int> nums;
     
     // 输入数组的个数
@@ -25,6 +27,7 @@ int main() {
     cin >> size;
     
     // 输入每个数字
+    cout << "输入数组数字：";
     for (int i = 0; i < size; i++) {
         int num;
         cin >> num;
