@@ -1,8 +1,8 @@
-package Algorithms.leetcode.Ex_451_Sort_Characters_By_Frequency;
+package Algorithms.leetcode.Ex_0451_Sort_Characters_By_Frequency;
 
 import java.util.Random;
 
-class Solution {
+class Solution_1 {
     // 记录每个字符的出现频率
     private int[] freq;
 
