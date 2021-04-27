@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_695_Max_Area_of_Island;
+package Algorithms.leetcode.Ex_0695_Max_Area_of_Island;
 
 class Solution_2 {
     public int maxAreaOfIsland(int[][] grid) {
