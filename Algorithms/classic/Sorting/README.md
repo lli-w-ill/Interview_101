@@ -1,30 +1,30 @@
 # 排序算法
 
-## 1. 计数排序
+## 1. 计数排序 (Counting Sort)
 
 
-## 2. 归并排序
+## 2. 归并排序 (Merge Sort)
 
 
-## 3. 快速排序
+## 3. 快速排序 (Quick Sort)
 
 
-## 4. 插入排序
+## 4. 插入排序 (Insertion Sort)
 
 
-## 5. 冒泡排序
+## 5. 冒泡排序 (Bubble Sort)
 
 
-## 6. 选择排序
+## 6. 选择排序 (Selection Sort)
 
 
-## 7. 希尔排序
+## 7. 希尔排序 (Shell Sort)
 
 
-## 8. 基数排序
+## 8. 基数排序 (Radix Sort)
 
 
-## 9. 桶排序
+## 9. 桶排序 (Bucket Sort)
 
 
 ## 10. 堆排序
