@@ -53,7 +53,7 @@ int main() {
         nums.push_back(num);
     }
 
-    // 快速排序
+    // 归并排序
     vector<int> temp (size, 0);
     merge_sort(nums, 0, nums.size(), temp);
 
