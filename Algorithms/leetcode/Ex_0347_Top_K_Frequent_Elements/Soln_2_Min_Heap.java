@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_347_Top_K_Frequent_Elements;
+package Algorithms.leetcode.Ex_0347_Top_K_Frequent_Elements;
 
 import java.util.HashMap;
 import java.util.PriorityQueue;

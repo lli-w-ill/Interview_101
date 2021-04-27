@@ -1,10 +1,10 @@
-package Algorithms.leetcode.Ex_347_Top_K_Frequent_Elements;
+package Algorithms.leetcode.Ex_0347_Top_K_Frequent_Elements;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
-class Solution {
+class Solution_3 {
     @SuppressWarnings("unchecked") // 忽略类型检查导致的warnings
     public int[] topKFrequent(int[] nums, int k) {
         // 计算每个数字出现的频率
