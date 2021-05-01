@@ -1,4 +1,4 @@
-package Algorithms.classic.Dynamic_Programming.knapsack_01;
+package Algorithms.classic.Dynamic_Programming.DP_1_Knapsack_01;
 
 /**
  * 一、题目：
@@ -35,7 +35,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
 
-public class Knapsack01_ex2_2d {
+public class Knapsack_01_ex2_2d {
 
     public static void knapsack01(int N, int[] c, int[] w, int V) {
         // f[i][j] 表示考虑前 i 个物品，背包重量为 j 情况下可以得到的最大价值

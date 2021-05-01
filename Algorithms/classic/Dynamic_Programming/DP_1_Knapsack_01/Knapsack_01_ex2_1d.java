@@ -1,11 +1,11 @@
-package Algorithms.classic.Dynamic_Programming.knapsack_01;
+package Algorithms.classic.Dynamic_Programming.DP_1_Knapsack_01;
 
 /**
  * 一、题目：
  * 已知：
  *  · 有 N 件物品，所有物品的重量存放在一个数组 c 中，第 i 件物品的重量为 c[i] (0 <= i < N). 所有物品的价值存放在一个数组 w 中，第 i 件物品的价值为 w[i] (0 <= i < N)
  *  · 有一个容量为 V 的背包
- * 求解：「在无需把背包装满的情况下」，哪些物品装入背包可以总价值最大
+ * 求解：「在需要把背包装满的情况下」，哪些物品装入背包可以总价值最大（注：这里是相对于 ex1 题目中唯一的变化）
  * 
  * 
  * 二、思路：
@@ -18,8 +18,8 @@ package Algorithms.classic.Dynamic_Programming.knapsack_01;
  * 
  * 四、算法复杂度分析：
  * 时间复杂度：O(V * N)
- * 空间复杂度：O(V * N)     （注：不计入记录最优解的 used）
- * 空间复杂度：O(V * N^2)   （注：计入记录最优解的 used）
+ * 空间复杂度：O(V)         （注：不计入记录最优解的 used）
+ * 空间复杂度：O(V * N)     （注：计入记录最优解的 used）
  * 
  * 五、背包问题参考：
  * 「背包问题九讲」博客：https://www.kancloud.cn/kancloud/pack/70125
@@ -35,18 +35,22 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
 
-public class Knapsack01_ex1_2d {
+public class Knapsack_01_ex2_1d {
 
     public static void knapsack01(int N, int[] c, int[] w, int V) {
         // f[i][j] 表示考虑前 i 个物品，背包重量为 j 情况下可以得到的最大价值
         // 第一行即 f[0][:] 表示什么都不装的情况
         // 最终 f[N][V] 即为所求
-        int[][] f = new int[N+1][V+1];
+        int[] f = new int[V+1];
 
+        // 注：这里是唯一的变化
         // 初始化 f
-        for (int i = 0; i <= N; i++) {
-            for (int v = 0; v <= V; v++) {
-                f[i][v] = 0;
+        for (int v = 0; v <= V; v++) {
+            if (v == 0) {
+                f[v] = 0;
+            } else {
+                // 因为必须要把背包装满，所以只有 v = 0 时初始为 0，迫使填表时跳到上一行列为 0 的位置
+                f[v] = Integer.MIN_VALUE;
             }
         }
 
@@ -60,43 +64,38 @@ public class Knapsack01_ex1_2d {
         System.arraycopy(w, 0, new_w, 1, w.length);
 
         // 定义一个 Map，key 是在 f 表格内的坐标，value 是一维数组，value[i] = 1 表示最优解中包含物品 i, value[i] = 0 表示最优解中不包含物品 i
-        Map<Integer, Map<Integer, int[]>> used = new HashMap<Integer, Map<Integer, int[]>>();
+        Map<Integer, int[]> used = new HashMap<Integer, int[]>();
         
         // 初始化 used
-        for (int i = 0; i <= N; i++) {
-            for (int v = 0; v <= V; v++) {
-                if (!used.containsKey(i)) {
-                    used.put(i, new HashMap<Integer, int[]>());
-                }
-                used.get(i).put(v, new int[N + 1]);   // 包括上面new_c在头部加的价值／重量为 0 的虚拟物品
-                for (int j = 0; j <= N; j++) {
-                    used.get(i).get(v)[j] = 0;
-                }
+        for (int v = 0; v <= V; v++) {
+            used.put(v, new int[N + 1]);   // 包括上面new_c在头部加的价值／重量为 0 的虚拟物品
+            for (int j = 0; j <= N; j++) {
+                used.get(v)[j] = 0;
             }
         }
         
         // 填表 f
         for (int i = 1; i <= N; i++) {
-            for (int v = 0; v <= V; v++) {
+            for (int v = V; v >= new_c[i]; v--) {
                 if (v - new_c[i] >= 0) {
-                    f[i][v] = Math.max(f[i-1][v], f[i-1][v - new_c[i]] + new_w[i]);
+                    int previous_fv = f[v];
+                    f[v] = Math.max(f[v], f[v - new_c[i]] + new_w[i]);
 
                     // 记录加入的物品
-                    if (f[i][v] == f[i-1][v]) {
+                    if (f[v] == previous_fv) {
                         // 不加入物品 i
-                        System.arraycopy(used.get(i-1).get(v), 0, used.get(i).get(v), 0, N + 1);
-                        used.get(i).get(v)[i] = 0;
-                    } else if (f[i][v] == f[i-1][v - new_c[i]] + new_w[i]) {
+                        used.get(v)[i] = 0;
+                    } else if (f[v] == f[v - new_c[i]] + new_w[i]) {
                         // 加入物品 i
-                        System.arraycopy(used.get(i-1).get(v - new_c[i]), 0, used.get(i).get(v), 0, N + 1);
-                        used.get(i).get(v)[i] = 1;
+                        System.arraycopy(used.get(v - new_c[i]), 0, used.get(v), 0, N + 1);
+                        used.get(v)[i] = 1;
                     }
                 }
             }
         }
 
         // 输出物品能装的最大价值
-        System.out.println("最大价值为：" + f[N][V]);
+        System.out.println("最大价值为：" + f[V]);
 
         // 输出最终填充的状态矩阵
         // Arrays.stream(f).forEach((i) -> {
@@ -105,7 +104,7 @@ public class Knapsack01_ex1_2d {
         // });
 
         // 输出最优解中背包里所装的物品
-        Arrays.stream(used.get(N).get(V)).forEach((i) -> {
+        Arrays.stream(used.get(V)).forEach((i) -> {
             System.out.print(i + " ");
         });
         System.out.println();
@@ -142,10 +141,10 @@ public class Knapsack01_ex1_2d {
 /**
  * 输出结果：
 最大价值为：87
-0 1 1 1 1 1 1 0 0 1 0 
+0 1 1 1 1 1 0 0 1 1 0 
 
 最大价值为：85
-0 1 1 1 1 1 1 0 0 0 0 
+0 1 1 1 1 1 0 1 0 0 0 
 
 最大价值为：82
 0 1 1 1 0 1 1 1 1 0 0 
