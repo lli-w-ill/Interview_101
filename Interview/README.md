@@ -1,6 +1,6 @@
 # Interview
 
-## 1. General Interview Questions
+## 1. General Questions
 
 ### 一般面试中通常问到的问题
 
@@ -10,7 +10,7 @@
 
 
 
-## 2. Technical Interview Questions
+## 2. Technical Questions
 
 
 ### Resume 上的经历
