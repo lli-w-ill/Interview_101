@@ -21,7 +21,7 @@ class Solution_1 {
                     // 检查如果使用 strs[i-1] 后，下标是否合法
                     if (count[0] <= j && count[1] <= k) {
                         // 如果使用 strs[i-1]，在三维表格中后两维下标合法，那么有两种可能
-                        //  1. 使用 strs[i-1]   -> dp[i-1][j-count[0]][k-count[1]]
+                        //  1. 使用 strs[i-1]   -> dp[i-1][j-count[0]][k-count[1]] + 1
                         //  2. 不使用 strs[i-1] -> dp[i-1][j][k]
                         // 「状态转移方程」
                         dp[i][j][k] = Math.max(dp[i-1][j-count[0]][k-count[1]] + 1, dp[i-1][j][k]);
