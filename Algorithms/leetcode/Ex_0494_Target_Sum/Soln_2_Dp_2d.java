@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_494_Target_Sum;
+package Algorithms.leetcode.Ex_0494_Target_Sum;
 
 class Solution_2 {
     public int findTargetSumWays(int[] nums, int S) {
