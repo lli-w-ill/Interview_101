@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_461_Hamming_Distance;
+package Algorithms.leetcode.Ex_0461_Hamming_Distance;
 
 class Solution_2 {
     public int hammingDistance(int x, int y) {
