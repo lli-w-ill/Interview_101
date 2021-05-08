@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_1:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         if not root:
             return 0

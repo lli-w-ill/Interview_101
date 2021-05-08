@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_2:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         prefixSumCount = {0: 1}
         return self.helper(root, prefixSumCount, sum, 0)
@@ -29,4 +30,4 @@ class Solution:
         return count
 
 
-# 参考：https://leetcode-cn.com/problems/path-sum-iii/solution/qian-zhui-he-di-gui-hui-su-by-shi-huo-de-xia-tian/
+# 参考题解：https://leetcode-cn.com/problems/path-sum-iii/solution/qian-zhui-he-di-gui-hui-su-by-shi-huo-de-xia-tian/
