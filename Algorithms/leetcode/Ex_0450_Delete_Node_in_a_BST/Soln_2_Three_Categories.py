@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+
+class Solution_2:
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
         if not root:
             return None
@@ -34,4 +35,4 @@ class Solution:
         return root
 
 
-# 参考：https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/450-shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dia-6/
+# 参考题解：https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/450-shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dia-6/
