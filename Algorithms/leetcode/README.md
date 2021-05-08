@@ -1,8 +1,8 @@
 # LeetCode Algorithm Questions
 
-**[LeetCode link (in China)](https://leetcode-cn.com/)**
+**[力扣 (in China)](https://leetcode-cn.com/)**
 
-**[LeetCode link (in America)](https://leetcode.com/)**
+**[LeetCode (in America)](https://leetcode.com/)**
 
 
 ## Naming Format
