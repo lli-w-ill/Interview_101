@@ -1,4 +1,4 @@
-class Solution:
+class Solution_2:
     def decodeString(self, s: str) -> str:
         if not s:
             return ""

@@ -1,4 +1,4 @@
-class Solution:
+class Solution_3:
     def decodeString(self, s: str) -> str:
         def dfs(s: str, i: int) -> Tuple[str, int]:
             res, multi = "", ""
