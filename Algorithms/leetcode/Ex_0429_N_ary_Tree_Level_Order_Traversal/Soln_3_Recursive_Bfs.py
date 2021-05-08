@@ -9,7 +9,7 @@ class Node:
 import itertools
 
 
-class Solution:
+class Solution_3:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         if not root:
             return []

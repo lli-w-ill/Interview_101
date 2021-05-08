@@ -7,7 +7,7 @@ class Node:
 """
 
 
-class Solution:
+class Solution_2:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         return self.dfs(root, 0, [])
 
