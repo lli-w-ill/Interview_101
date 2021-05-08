@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+class Solution_2:
     def rob(self, root: TreeNode) -> int:
         if not root:
             return 0

@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+class Solution_5:
     def rob(self, root: TreeNode) -> int:
         return max(self.helper(root))
 

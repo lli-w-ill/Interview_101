@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+class Tle_1:
     def rob(self, root: TreeNode) -> int:
         if not root:
             return 0
