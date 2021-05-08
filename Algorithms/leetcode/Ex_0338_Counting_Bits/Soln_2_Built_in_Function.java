@@ -1,4 +1,4 @@
-package Algorithms.leetcode.Ex_338_Counting_Bits;
+package Algorithms.leetcode.Ex_0338_Counting_Bits;
 
 class Solution_2 {
     public int[] countBits(int num) {
