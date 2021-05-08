@@ -5,7 +5,7 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+class Solution_2:
     def sumOfLeftLeaves(self, root: TreeNode) -> int:
         leftSum = [0]
         self.dfs(root, leftSum)
