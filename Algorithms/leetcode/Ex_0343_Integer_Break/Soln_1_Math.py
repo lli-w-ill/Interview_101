@@ -1,3 +1,5 @@
+import math
+
 class Solution_1:
     def integerBreak(self, n: int) -> int:
         if n <= 3:
